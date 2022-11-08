@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Circuit breaker.iml" filepath="$PROJECT_DIR$/.idea/Circuit breaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Department-service/Department-service.iml" filepath="$PROJECT_DIR$/Department-service/Department-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User-service/User-service.iml" filepath="$PROJECT_DIR$/User-service/User-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: department-service
+          uri: lb://department-service
+          predicates:
+          - Path=/departments/**
+
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/users/**
+
+
+#zuul:
+#  routes:
+#    department-service:
+#      url: http://localhost:9001
